@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Oleo";
+  src: url("/src/assets/fonts/Oleo_Script/OleoScript-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Oleo";
+  src: url("/src/assets/fonts/Oleo_Script/OleoScript-Bold.ttf");
+  font-weight: 700;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  @apply hidden;
+}
